@@ -1,5 +1,44 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-cenkalti-rpc2 (1.0.4-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+  * Update Standards-Version to 4.7.0 in d/control (no changes needed)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 04 Oct 2024 00:27:42 +0000
+
+golang-github-cenkalti-rpc2 (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sun, 17 Mar 2024 14:47:57 +0000
+
+golang-github-cenkalti-rpc2 (1.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mathias Gibbens <gibmat@debian.org>  Thu, 08 Feb 2024 23:21:08 +0000
+
+golang-github-cenkalti-rpc2 (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Drop patch for issue fixed upstream
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 06 Jan 2024 23:32:33 +0000
+
+golang-github-cenkalti-rpc2 (1.0.0-3) unstable; urgency=medium
+
+  * Add patch to deconflict the port used by the tests
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 29 Dec 2023 22:24:20 +0000
+
+golang-github-cenkalti-rpc2 (1.0.0-2) unstable; urgency=medium
+
+  * Source-only upload for migration
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 29 Dec 2023 19:24:15 +0000
+
+golang-github-cenkalti-rpc2 (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1059455)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Wed, 27 Dec 2023 23:57:13 +0000
